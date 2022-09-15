@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * main - check the code
-* Auth: Kenneth Nwankwo
+* Auth: Kareem Mohammed
 * File: 0-putchar.c
 * Return: Always 0
 */
