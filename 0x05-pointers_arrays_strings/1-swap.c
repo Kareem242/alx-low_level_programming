@@ -2,19 +2,19 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * * swap_int - function checks for upper case.
+ * _isupper - checks if the letters are uppercase
+ * *  @a: input.
+ * *  @b: input.
+ * *
+ * *  Return: 1 if c is uppercase
+ ** 0 otherwise
  */
-int main(void)
+void swap_int(int *a, int *b)
 {
-	int a;
-	int b;
+	int temp;
 
-	a = 98;
-	b = 42;
-	printf("a=%d, b=%d\n", a, b);
-	swap_int(&a, &b);
-	printf("a=%d, b=%d\n", a, b);
-	return (0);
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
